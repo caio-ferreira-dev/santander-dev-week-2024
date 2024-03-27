@@ -1,8 +1,9 @@
-package me.dio.stw24.domain.ports;
+package me.dio.sdw24.domain.ports;
 
-import me.dio.stw24.domain.model.Champion;
 import java.util.List;
 import java.util.Optional;
+
+import me.dio.sdw24.domain.model.Champion;
 
 public interface ChampionsRepository {
     List<Champion> findAll();

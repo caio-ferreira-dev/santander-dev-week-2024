@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import me.dio.stw24.domain.model.Champion;
+import me.dio.sdw24.application.ListChampionsUseCase;
+import me.dio.sdw24.domain.model.Champion;
 
 @SpringBootTest
 public class ListChampionsUseCaseIntegrationTest {
