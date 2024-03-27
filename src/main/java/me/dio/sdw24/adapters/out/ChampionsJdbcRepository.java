@@ -1,4 +1,4 @@
-package me.dio.stw24.adapters.out;
+package me.dio.sdw24.adapters.out;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,8 +7,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import me.dio.stw24.domain.model.Champion;
-import me.dio.stw24.domain.ports.ChampionsRepository;
+import me.dio.sdw24.domain.model.Champion;
+import me.dio.sdw24.domain.ports.ChampionsRepository;
 
 @Repository
 public class ChampionsJdbcRepository implements ChampionsRepository{
